@@ -1,0 +1,76 @@
+﻿body
+{
+	font-family: "Courier New";
+}
+
+body
+{
+    background-image: url("../Images/logo.jpg");
+    background-attachment: fixed; /* Le fond restera fixe */
+    background-repeat: no-repeat; /* Le fond ne sera pas répété */
+    background-position: top left; /* Le fond sera placé en haut à droite */ 
+}
+
+a:focus /* Quand le visiteur sélectionne le lien */
+{
+    background-color: blue;
+}
+
+a:visited /* Quand le visiteur a déjà vu la page concernée */
+{
+    color: #AAA; 
+}
+
+article
+{
+	width: 350px; /* On a indiqué une largeur (obligatoire) */
+    margin: auto; /* On peut donc demander à ce que le bloc soit centré avec auto */
+    text-align: justify;
+    padding: 8px;
+    margin-bottom: 20px;
+}
+
+aside
+{
+    width: 350px; /* On a indiqué une largeur (obligatoire) */
+    margin: auto; /* On peut donc demander à ce que le bloc soit centré avec auto */
+    text-align: justify;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+nav
+{
+    width: 100px; /* On a indiqué une largeur (obligatoire) */
+    margin: left; /* On peut donc demander à ce que le bloc soit centré avec auto */
+    border: 1px solid black;
+    text-align: justify;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+header
+{
+    width: 180px; /* On a indiqué une largeur (obligatoire) */
+    margin: auto; /* On peut donc demander à ce que le bloc soit centré avec auto */
+    border: 5px solid black;
+    text-align: justify;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+footer
+{
+	width: 350px; /* On a indiqué une largeur (obligatoire) */
+    margin: auto; /* On peut donc demander à ce que le bloc soit centré avec auto */
+    text-align: justify;
+    padding: 12px;
+    margin-bottom: 50px;
+}
+
+table
+{
+
+    margin: auto; /* On peut donc demander à ce que le bloc soit centré avec auto */
+    text-align: justify;
+}
